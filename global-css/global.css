@@ -1,0 +1,28 @@
+/* RTL toggle same as theme toggle */
+.rtl-toggle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.rtl-toggle:hover{
+  border-color: var(--accent);
+  color: var(--accent);
+  box-shadow: var(--shadow);
+}
+
+.mob-drop-toggle{
+  color:#ffffff !important;
+}
+
+.mob-drop-toggle i{
+  color:#ffffff !important;
+}
